@@ -23,7 +23,6 @@ install:
   - npm install
   - npm install hexo-deployer-git --save
 
-
 # 执行清缓存，生成网页操作
 script:
   - hexo clean
@@ -37,7 +36,7 @@ after_script:
   - git config user.email "ashin_33@163.com"
   - git add .
   - git commit -m "Travis ci push"
-  - git push --force --quiet "https://${travis-ci}@${gh_repo}" master:master
+  - git push --force --quiet "https://${travis_ci}@${gh_repo}" master:master
 env:
   global:
     - gh_repo: github.com/ashin33/ashin33.github.io.git
