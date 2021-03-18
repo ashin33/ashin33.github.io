@@ -36,7 +36,7 @@ after_script:
   - git config user.email "ashin_33@163.com"
   - git add .
   - git commit -m "Travis ci push"
-  - git push --force --quiet "https://${travis-ci token}@${gh_repo}" master:master
+  - git push --force --quiet "https://${travis-ci}@${gh_repo}" master:master
 env:
   global:
     - gh_repo: github.com/ashin33/ashin33.github.io.git
