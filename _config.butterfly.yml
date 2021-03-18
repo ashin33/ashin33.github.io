@@ -11,12 +11,12 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
-    - 音樂 || /music/ || fas fa-music
-    - 照片 || /gallery/ || fas fa-images
-    - 電影 || /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+#  清单||fa fa-heartbeat:
+#    - 音乐 || /music/ || fas fa-music
+#    - 照片 || /gallery/ || fas fa-images
+#    - 电影 || /movies/ || fas fa-video
+#  友链: /link/ || fas fa-link
+#  关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
