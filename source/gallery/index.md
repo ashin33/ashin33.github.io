@@ -1,3 +1,3 @@
 <div class="gallery-group-main">
-{% galleryGroup '背景' '网站素材' '/gallery/wallpaper' '/gallery/wallpaper/namikaze_minato_3.png' %}
+{% galleryGroup '花花世界' 'hello world' '/gallery/world' https://www.m-finder.com/images/top.jpg %}
 </div>
