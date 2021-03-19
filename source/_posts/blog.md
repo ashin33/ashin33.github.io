@@ -42,7 +42,7 @@ mac下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)
 ##  安装hexo主题
 `git submodule add https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly`  
 * 此处选择了butterfly主题，更多主题请移步 [https://hexo.io/themes/](https://hexo.io/themes/)  
-* 此处使用了git submodule 子模块加载命令，用户后续我们主项目推送是，将主题可以一起推到项目里，否则后面travis-ci自动构建会报错，找不到标签等错误
+* 此处使用了git submodule 子模块加载命令，用于后续我们主项目推送时，将主题可以一起推到项目里，否则后面travis-ci自动构建会报错，找不到标签等错误
 
 ## hexo博客发布与butterfly主题的具体使用，参考各自文档  
 hexo文档：[https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)  
