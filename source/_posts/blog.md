@@ -44,6 +44,9 @@ mac下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)
 * 此处选择了butterfly主题，更多主题请移步 [https://hexo.io/themes/](https://hexo.io/themes/)  
 * 此处使用了git submodule 子模块加载命令，用于后续我们主项目推送时，将主题可以一起推到项目里，否则后面travis-ci自动构建会报错，找不到标签等错误
 
+##  安装pug和stylus渲染器,用于渲染主题
+`npm install hexo-renderer-pug hexo-renderer-stylus --save`
+
 ## hexo博客发布与butterfly主题的具体使用，参考各自文档  
 hexo文档：[https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)  
 butterfly文档：[https://butterfly.js.org/posts/21cfbf15/](https://butterfly.js.org/posts/21cfbf15/)  

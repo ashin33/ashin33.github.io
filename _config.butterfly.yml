@@ -8,7 +8,7 @@
 
 menu:
   首页: / || fas fa-home
-  说说: /artitalk/ || fa fa fa-comments-o
+  说说: /artitalk/ || fas fa-comment-alt
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -129,7 +129,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+     - /img/namikaze_minato_3.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -320,7 +320,7 @@ valine:
   guest_info: nick/mail/link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/slam_dunk.jpg # valine background
+  bg: /img/slam_dunk-1.jpg # valine background
   emojiCDN: # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick # required fields (nick/mail)
