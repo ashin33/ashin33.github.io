@@ -1,5 +1,5 @@
 ---
-title: link
+title: 友链
 date: 2021-03-16 10:20:56
-type: "友链"
+type: "link"
 ---

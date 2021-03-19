@@ -6,12 +6,16 @@
       avatar: https://www.m-finder.com/images/favicon.ico
       descr: 删繁就简,发现更多
 
-- class_name: 网站
+- class_name: mac软件下载网站
   class_desc: 值得推荐的网站
   link_list:
     - name: macwk
       link: https://macwk.com/
-      avatar: /img/macwk.jpg
+      avatar: https://macwk.com/favicon.ico
       descr: 精品mac软件下载
+    - name: xclient
+      link: https://xclient.info/
+      avatar: https://img.xclient.info/icon/favicon.ico
+      descr: 精品mac应用分享
 
 
