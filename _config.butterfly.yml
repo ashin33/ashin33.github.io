@@ -8,6 +8,7 @@
 
 menu:
   首页: / || fas fa-home
+  说说: /artitalk/ || fa fa fa-comments-o
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -137,9 +138,9 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: /img/404.png
 
 post_meta:
   page: # Home Page
@@ -637,7 +638,7 @@ subtitle:
     - "神的孩子都在跳舞"
 
 # Loading Animation (加載動畫)
-preloader: false
+preloader: true
 
 # aside (側邊欄)
 # --------------------------------------
@@ -795,9 +796,13 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId:
-  appKey:
+  appId: USUV65KfF0lAD0Cu2dJskXq9-MdYXbMMI
+  appKey: cERvGNJ8EEJnhjYVDvvrgOXU
   option:
+    atComment: 1
+    motion: 1
+    avatarPla: "/img/namikaze_minato_2.png"
+    shuoPla: 憋缩话,写我
 
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
