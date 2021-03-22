@@ -105,3 +105,4 @@ deploy:
   type: git
   repo: https://github.com/ashin33/ashin33.github.io.git
   branch: hexo
+
