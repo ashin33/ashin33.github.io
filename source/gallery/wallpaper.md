@@ -1,7 +1,8 @@
 {% gallery %}
-![](/gallery/wallpaper/namikaze_minato_1.jpeg)
-![](/gallery/wallpaper/namikaze_minato_2.png)
-![](/gallery/wallpaper/namikaze_minato_3.jpeg)
-![](/gallery/wallpaper/slam_dunk_1.jpg)
-![](/gallery/wallpaper/slam_dunk_2.jpg)
+![](/img/namikaze_minato_1.jpeg)
+![](/img/namikaze_minato_2.png)
+![](/img/namikaze_minato_3.jpeg)
+![](/img/naruto_1.png)
+![](/img/slam_dunk_1.jpg)
+![](/img/slam_dunk_2.jpg)
 {% endgallery %}
