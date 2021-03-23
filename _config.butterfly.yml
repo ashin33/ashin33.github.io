@@ -86,7 +86,7 @@ favicon: /img/namikaze_minato_2.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/namikaze_minato_1.jpeg
+  img: /img/namikaze_minato_4.jpeg
   effect: false
 
 # Disable all banner image
@@ -270,7 +270,7 @@ comments:
   # If you set it to true, the comment count will be invalid
   lazyload: false
   count: true # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -514,10 +514,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://ashin33.github.io/img/naruto_1.png)
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -531,16 +531,16 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
@@ -801,7 +801,6 @@ artitalk:
   option:
     atComment: 1
     motion: 1
-    avatarPla: "/img/namikaze_minato_2.png"
     shuoPla: 憋缩话,写我
 
 # Pjax [Beta]
