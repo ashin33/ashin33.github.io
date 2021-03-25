@@ -1,15 +1,14 @@
 ---
 layout: ZipArchive
-title: 2021
+title: php使用ZipArchive类,压缩文件
 date: 2021-03-25 22:51:34
 tags: [2021,代码]
 categories: [代码, bug]
 ---
-##php使用ZipArchive类,压缩文件
+
 >今天工作中,需要从服务器打包个人的签约pdf文件回本地,从数据库拉出个人的身份证号码及对应的签约文件名,最后要实现将签约文件以身份证号命名,于是写了个小脚本拉一下;
 
-### 将身份证与文件名一一对应保存到一个txt文件中,后面改文件内容可以重复使用,格式如下
-![img.jpg](ZipArchive/1.jpg)
+![img.jpg](/_posts/ZipArchive/1.jpg)
 ```php
 //身份证及文件名一一对应的条件存储文件
 $txt_file = './condition.txt';
