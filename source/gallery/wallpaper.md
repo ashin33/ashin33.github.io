@@ -1,8 +1,10 @@
 {% gallery %}
-![](/img/namikaze_minato_1.jpeg)
-![](/img/namikaze_minato_2.png)
-![](/img/namikaze_minato_3.jpeg)
-![](/img/naruto_1.jpg)
-![](/img/slam_dunk_1.jpg)
-![](/img/slam_dunk_2.jpg)
+![](namikaze_minato_1.jpeg)
+![](namikaze_minato_2.png)
+![](namikaze_minato_3.jpeg)
+![](namikaze_minato_4.jpeg)
+![](namikaze_minato_5.jpeg)
+![](naruto_1.jpg)
+![](slam_dunk_1.jpg)
+![](slam_dunk_2.jpg)
 {% endgallery %}
