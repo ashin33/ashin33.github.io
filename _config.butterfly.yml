@@ -800,7 +800,7 @@ artitalk:
   appKey: cERvGNJ8EEJnhjYVDvvrgOXU
   option:
     atComment: 1
-    motion: 1
+    motion: 0
     shuoPla: 憋缩话,写我
 
 # Pjax [Beta]
@@ -866,7 +866,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+     - <link rel="stylesheet" href="/css/alon.css">
   bottom:
     # - <script src="xxxx"></script>
 
