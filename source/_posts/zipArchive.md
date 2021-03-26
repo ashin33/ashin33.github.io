@@ -10,7 +10,9 @@ categories: [代码, bug]
 
 >保存身份证及文件名的对应关系文件如下
 
-![zipArchive_1](/images/zipArchive_1.jpg)
+![zipArchive_1](/images/zipArchive-1.jpg)
+
+
 
 
 
