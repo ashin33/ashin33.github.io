@@ -7,13 +7,14 @@ categories: [代码]
 ---
 ## github
 ### 1. 在github中新建仓库并命名为  github用户名.github.io的仓库
-![img.jpg](1.jpg)
+![1](https://i.loli.net/2021/03/26/Q1DoKuJkzL48s7S.jpg)
+
 
 ###2.新增token
-![img.jpg](2.jpg)
+![2](https://i.loli.net/2021/03/26/Przm8NMSjgyO1Q9.jpg)
+![3](https://i.loli.net/2021/03/26/V2EOLmQd9o5puJ6.jpg)
+![4](https://i.loli.net/2021/03/26/LMAYFTIH26Baxhr.jpg)
 
-![img.jpg](3.jpg)
-![img.jpg](4.jpg)
 保存好生成的 token，后面用于配置 travis-ci
 
 ### 3.新建一个hexo分支用于存储后面的项目（分支可以自定义，后面配置中保持一致即可）
@@ -77,8 +78,7 @@ timezone: Asia/Shanghai
 url: https://ashin33.github.io/  ##github分配的静态页面地址
 ```
 
-![img.jpg](5.jpg)
-
+![5.jpg](https://i.loli.net/2021/03/26/TrIVbHum86j1d5K.jpg)
 ```
 theme: butterfly  ##themes目录下的主题目录
 deploy:  
@@ -87,8 +87,7 @@ repo: https://github.com/ashin33/ashin33.github.io.git  ##仓库地址
 branch: hexo  ##代码要推送的分支
 ```
 
-
-![img.jpg](6.jpg)
+![6](https://i.loli.net/2021/03/26/cLE3u4IDjmJQreF.jpg)
 
 ## butterfly配置
 * 复制themes/butterfly下的_config.yml文件到项目根目录下并重命名为_config.butterfly.yml
@@ -101,13 +100,14 @@ branch: hexo  ##代码要推送的分支
 
 ### 1. 在[travis-ci官网](https://travis-ci.com/)用github账号登录 ，并激活，如图
 
-![img.jpg](7.jpg)
+![7](https://i.loli.net/2021/03/26/3k7ORZsuLyAXYGM.jpg)
+![8](https://i.loli.net/2021/03/26/mFqDLaOQPgoJTRZ.jpg)
 
-![img.jpg](8.jpg)
 ### 2. 进入travis-ci中的自己的项目中进入setting中，按下图进行设置
 
-![img.jpg](9.jpg)
-![img.jpg](10.jpg)
+![9](https://i.loli.net/2021/03/26/FPs3cCAg2hpndUE.jpg)
+
+![10](https://i.loli.net/2021/03/26/rAjgG3QofNq4PJb.jpg)
 
 ### 3.在项目根目录新增travis-ci的配置文件`.travis.yml`，并写入以下内容
 
