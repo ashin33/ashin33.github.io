@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "hexo": "^5.0.0",
+    "hexo-asset-image": "0.0.3",
     "hexo-butterfly-hpptalk": "^1.0.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
@@ -26,7 +27,6 @@
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3",
-    "hexo-asset-image": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3"
   }
 }
