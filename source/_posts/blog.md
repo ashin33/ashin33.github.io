@@ -25,17 +25,17 @@ categories: [代码]
 mac下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)  
 其他系统，请自行寻找，如不本地调试，node.js也可以不装
 
-## 全局安装hexo  
+## 全局安装hexo
 ```
 npm install -g hexo-cli
 ```
 
-## 添加环境变量  
+## 添加环境变量
 ```
 echo 'PATH="$PATH:./node_modules/.bin"' >> ~/.profile
 ```
 
-## 运行  
+## 运行
 ```
 $ hexo init ashin33 
 $ cd ashin33
@@ -43,7 +43,7 @@ $ npm install
 ```
 在指定目录下(上面为我的文件夹，请根据个人实际情况修改)生成hexo项目
 
-## 运行以下命令就可以预览你的博客了  
+## 运行以下命令就可以预览你的博客了
 ```
 hexo clean ## 用于清除已构建的文件  
 hexo generate ##或者 hexo g  构建项目  
@@ -55,7 +55,7 @@ hexo server ##或者 hexo s
 ```
 git submodule add https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
-* 此处选择了butterfly主题，更多主题请移步 [https://hexo.io/themes/](https://hexo.io/themes/)  
+* 此处选择了butterfly主题，更多主题请移步 [https://hexo.io/themes/](https://hexo.io/themes/)
 * 此处使用了git submodule 子模块加载命令，用于后续我们主项目推送时，将主题可以一起推到项目里，否则后面travis-ci自动构建会报错，找不到标签等错误
 
 ##  安装pug和stylus渲染器,用于渲染主题
@@ -63,9 +63,9 @@ git submodule add https://github.com/jerryc127/hexo-theme-butterfly.git themes/b
 npm install hexo-renderer-pug hexo-renderer-stylus --save
 ```
 
-## hexo博客发布与butterfly主题的具体使用，参考各自文档  
+## hexo博客发布与butterfly主题的具体使用，参考各自文档
 hexo文档：[https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)  
-butterfly文档：[https://butterfly.js.org/posts/21cfbf15/](https://butterfly.js.org/posts/21cfbf15/)  
+butterfly文档：[https://butterfly.js.org/posts/21cfbf15/](https://butterfly.js.org/posts/21cfbf15/)
 
 ## hexo配置
 修改项目根目录下的_config.yml文件
@@ -96,7 +96,7 @@ branch: hexo  ##代码要推送的分支
 * hexo构建时会合并_config.yml和_config.butterfly.yml的配置
 * 在此修改butterfly的配置，在后面更新主题是就不会影响配置了
 
-## 配置travis-ci用于自动构建  
+## 配置travis-ci用于自动构建
 *  不使用travis-ci手动构建也是可以的，可以直接使用  
 `hexo deploy -g`  或者  `hexo d -g`,此命令会根据第9步中配置的deploy的参数直接构建并推送
 
