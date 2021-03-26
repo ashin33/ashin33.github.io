@@ -7,10 +7,12 @@ categories: [代码]
 ---
 ## github
 ### 1. 在github中新建仓库并命名为  github用户名.github.io的仓库
+
 ![1](https://i.loli.net/2021/03/26/Q1DoKuJkzL48s7S.jpg)
 
 
-###2.新增token
+### 2.新增token
+
 ![2](https://i.loli.net/2021/03/26/Przm8NMSjgyO1Q9.jpg)
 ![3](https://i.loli.net/2021/03/26/V2EOLmQd9o5puJ6.jpg)
 ![4](https://i.loli.net/2021/03/26/LMAYFTIH26Baxhr.jpg)

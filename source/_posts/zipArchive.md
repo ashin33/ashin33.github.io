@@ -1,5 +1,5 @@
 ---
-layout: ZipArchive
+layout: zipArchive
 title: php使用ZipArchive类,压缩文件
 date: 2021-03-25 22:51:34
 tags: [2021,代码]
@@ -9,6 +9,7 @@ categories: [代码, bug]
 >今天工作中,需要从服务器打包个人的签约pdf文件回本地,从数据库拉出个人的身份证号码及对应的签约文件名,最后要实现将签约文件以身份证号命名,于是写了个小脚本拉一下;
 
 >保存身份证及文件名的对应关系文件如下
+
 ![zipArchive_1.jpg](https://i.loli.net/2021/03/26/3cHRWBxTNhXS9um.png)
 
 
