@@ -12,6 +12,8 @@ categories: [代码, bug]
 
 ![img.jpg](1.jpg)
 
+### 文件打包成zip
+
 ```php
 //身份证及文件名一一对应的条件存储文件
 $txt_file = './condition.txt';
@@ -19,11 +21,17 @@ $txt_file = './condition.txt';
 $zip_name = './res.zip';
 //签约文件存储地址
 $dir = '/Volumes/PHP/tax-manage/public/downloads/';
-if(file_exists($zip_name)){
-    unlink($zip_name);
-}
 
 $zip = new ZipArchive();
+/*
+ * open方法第一个参数是压缩或解压的文件
+ * open第二个参数,用ZipArchive::CREATE,若文件已存在,会继续添加,用ZipArchive::OVERWIRITE则会覆盖之前的zip包
+ * 传ZipArchive::CREATE时,若zip包不存在会自动创建
+ * 传ZipArchive::OVERWIRITE时,若zip包不存在,$zip->open会返回数字9,后续addFile会报错Invalid or uninitialized Zip object 
+ * */
+ if(file_exists($zip_name)){
+    unlink($zip_name);
+}
 if ($zip->open($zip_name, ZipArchive::CREATE) == TRUE) {
     //打开条件文件,读取身份证及签约文件名
     $file_handler = fopen($txt_file, 'r');//以可读方式打开文件
@@ -40,7 +48,22 @@ if ($zip->open($zip_name, ZipArchive::CREATE) == TRUE) {
     echo 'finish';
 }
 ```
-###记一个bug
+
+##### 记一个bug，心酸
+
 >第一次写完后,`fgets()`方法取出一行数据后,用`explode()`方法分割数据,得到的文件路径是带了换行符`\n`的,但是这茬给忽略了,导致所有数据只有最后一行处理成功,因为没有换行;太菜了,哈哈哈哈;还以为是后面的覆盖了前面的文件呢,跟旁边的小伙伴想了半天还,最后还是小伙伴发现了这个,给自己一巴掌;(痛苦面具);特此记录一次,再忘记剁手(捂脸)
 
 > 如果ZipArchive类的addFile方法返回false,不要怀疑就是文件不存在或者路径不对,不要质疑(捂脸)
+
+### 解压缩zip包
+
+```php
+$zip = new ZipArchive();
+//解压,open方法不需要传第二个参数
+if ($zip->open('res.zip') === TRUE)
+{
+    //将res.zip的内容解压到res文件夹中
+    $zip->extractTo('res');
+    $zip->close();//关闭处理的zip文件
+}
+```
