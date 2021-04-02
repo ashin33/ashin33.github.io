@@ -9,6 +9,10 @@
 - class_name: mac软件下载网站
   class_desc: 值得推荐的网站
   link_list:
+    - name: butterfly
+      link: https://butterfly.js.org/
+      avatar: /img/link_images/butterfly.png
+      descr: hexo主题-butterfly官方文档
     - name: macwk
       link: https://macwk.com/
       avatar: https://macwk.com/favicon.ico
