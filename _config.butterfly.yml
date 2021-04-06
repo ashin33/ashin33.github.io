@@ -867,9 +867,10 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="/css/alon.css">
+     - <script data-ad-client="ca-pub-6561075095726278" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   bottom:
 #     - <script src="xxxx"></script>
-     - <script data-ad-client="ca-pub-6561075095726278" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
