@@ -442,10 +442,10 @@ microsoft_clarity:
 
 # Google Adsense (谷歌廣告)
 google_adsense:
-  enable: false
+  enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
+  client: pub-6561075095726278
   enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)
@@ -867,7 +867,6 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="/css/alon.css">
-     - <script data-ad-client="ca-pub-6561075095726278" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   bottom:
 #     - <script src="xxxx"></script>
 
