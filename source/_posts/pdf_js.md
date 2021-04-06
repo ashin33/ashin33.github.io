@@ -41,7 +41,7 @@ util.js:366 Warning: Unimplemented widget field type "Sig", falling back to base
 //   this.setFlags(_util.AnnotationFlag.HIDDEN);
 // }
 ```
-别闹，根本不好使好吗，到处都是转载的一毛一样的这三行的解决方法，别听
+然并卵
 
 #### 真正解决
 
