@@ -8,7 +8,9 @@
 
 menu:
   首页: / || fas fa-home
-  说说: /artitalk/ || fas fa-comment-alt
+  唠嗑||fa fa-comment-alt:
+    说说: /artitalk/ || fas fa-comment-alt
+    留言板: /message/ || fas fa-comment-alt
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
@@ -44,8 +46,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   fab fa-github: https://github.com/ashin33 || Github
+   fas fa-envelope: mailto:ashin_33@163.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -263,7 +265,8 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-    - Valine
+    - twikoo
+#    - Valine
   # - Disqus
   text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -357,7 +360,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: alon-blog-5gfjcqyx66c11137
   region:
   option:
 
@@ -651,12 +654,12 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description:
+    description: 平平无奇小码农
     button:
-      enable: false
+      enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/ashin33
   card_announcement:
     enable: true
     content: 神的孩子都在跳舞
@@ -709,7 +712,7 @@ newest_comments:
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
-  valine: true
+  valine: false
   github_issues:
     enable: true
     repo: ashin33/ashin33.github.io
@@ -717,7 +720,7 @@ newest_comments:
     enable: false
     forum:
     api_key:
-  twikoo: false
+  twikoo: true
   waline: false
 
 # Bottom right button (右下角按鈕)
