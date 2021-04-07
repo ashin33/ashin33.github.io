@@ -265,8 +265,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-    - twikoo
-#    - Valine
+    - Valine
   # - Disqus
   text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -712,7 +711,7 @@ newest_comments:
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
-  valine: false
+  valine: true
   github_issues:
     enable: true
     repo: ashin33/ashin33.github.io
@@ -720,7 +719,7 @@ newest_comments:
     enable: false
     forum:
     api_key:
-  twikoo: true
+  twikoo: false
   waline: false
 
 # Bottom right button (右下角按鈕)
