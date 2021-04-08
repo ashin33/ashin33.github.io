@@ -266,7 +266,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
     - Twikoo
-    - Valine
+#    - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -360,7 +360,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: hexo-7ga4d1288683994e
+  envId: alon-blog-1gjkmamya2dd90c2
   region:
   option:
 
@@ -706,13 +706,13 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 3
   storage: 6 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
-  valine: true
+  valine: false
   github_issues:
     enable: true
     repo: ashin33/ashin33.github.io

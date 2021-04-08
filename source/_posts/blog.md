@@ -24,6 +24,16 @@ categories: [代码]
 ## 安装node.js
 mac下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)  
 其他系统，请自行寻找，如不本地调试，node.js也可以不装
+>node.js我使用的12.21.0版本,最新版的node.js在hexo构建后会报错
+```
+(node:25044) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25044) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:25044) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+(node:25044) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
+(node:25044) Warning: Accessing non-existent property 'column' of module exports inside circular dependency
+(node:25044) Warning: Accessing non-existent property 'filename' of module exports inside circular dependency
+```
 
 ## 全局安装hexo
 ```
