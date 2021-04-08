@@ -708,8 +708,8 @@ runtimeshow:
 newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
-  limit: 6
-  storage: 10 # unit: mins, save data to localStorage
+  limit: 3
+  storage: 6 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
   valine: true
