@@ -2,6 +2,7 @@
 title: 哔哔
 date: 2021-04-08 11:15:45
 aside: false
+comments: false
 ---
 
 <div id='speak'></speak>
