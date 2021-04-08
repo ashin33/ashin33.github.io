@@ -1,6 +1,7 @@
 ---
 title: 留言板
 date: 2021-04-07 10:23:21
+aside: false
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zjwo/CDN/css/messagebar.css"/>
 

@@ -8,9 +8,9 @@
 
 menu:
   首页: / || fas fa-home
-  唠嗑||fa fa-comment-alt:
-    说说: /artitalk/ || fas fa-comment-alt
-    留言板: /message/ || fas fa-comment-alt
+  唠嗑||fa fa-comments:
+    哔哔: /bber/ || fas fa-comment
+    留言板: /message/ || fas fa-clipboard
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
