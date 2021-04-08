@@ -1,5 +1,5 @@
 ---
-title: Fatal: Not a gitflow-enabled repo yet. Please run 'git flow init' first
+title: 解决Fatal:Not a gitflow-enabled repo yet. Please run 'git flow init' first
 date: 2021-04-08 10:14:38
 tags: [2021,git]
 categories: [error]
