@@ -12,7 +12,7 @@ ispeakBber
     .init({
       el: '#speak', // 容器选择器
       name: 'alon', // 显示的昵称
-      envId: 'hexo-7ga4d1288683994e', // 环境id
+      envId: 'alon-blog-1gjkmamya2dd90c2', // 环境id
       region: 'ap-shanghai', // 腾讯云地址，默认为上海
       limit: 10, // 每次加载的条数，默认为5
       avatar: '/img/namikaze_minato_4.jpeg',
