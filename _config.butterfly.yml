@@ -871,7 +871,7 @@ inject:
   head:
      - <link rel="stylesheet" href="/css/alon.css">
   bottom:
-#     - <script src="xxxx"></script>
+     - <script src="/js/alon.js"></script>
 
 
 # CDN
