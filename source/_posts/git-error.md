@@ -3,6 +3,8 @@ title: 解决Fatal:Not a gitflow-enabled repo yet. Please run 'git flow init' fi
 date: 2021-04-08 10:14:38
 tags: [2021,git]
 categories: [error]
+top_img: /img/error.jpeg
+cover: /img/error.jpeg
 ---
 
 >今天sourcetree操作git，报错Fatal: Not a gitflow-enabled repo yet. Please run 'git flow。记录一下解决方案。

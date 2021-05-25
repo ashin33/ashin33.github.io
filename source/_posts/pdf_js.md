@@ -3,6 +3,8 @@ title: 使用pdf.js展示pdf及展示电子签章
 date: 2021-04-01 19:16:11
 tags: [2021,代码]
 categories: [代码]
+top_img: /img/pdf.png
+cover: /img/pdf.png
 ---
 > 项目中之前的小伙伴用的pdfh5.js,用起来有些许bug,于是乎准备使用pdf.js代替之
 

@@ -16,27 +16,28 @@ redis是基于内存的可持久化的key-value型数据库。
 * 支持事务
 * 数据类型丰富（string，hash，set，zet，list）
 * 支持主从，读写分离
+
 # redis的缺点
 
 # redis数据类型
 
 | 类型     | 数据类型                |
 |--------|---------------------|
-| string | 字符串，整数，浮点型          |
-| hash   | 有键值对的列表             |
-| set    | 字符串的无序集合，每个字符串都是唯一的 |
-| zet    | 有序集合，由浮点key和字符串值组成  |
-| list   | list链式表，每个节点上都一个值   |
-## string
-1. 获取值 get
-2. 设置值 set
-3. 删除值 del
-4. 自增 incr
-5. 按值自增 incrby
+| [string](#string) | 字符串，整数，浮点型          |
+| [hash](#hash)   | 有键值对的列表             |
+| [set](#set)    | 字符串的无序集合，每个字符串都是唯一的 |
+| [zet](#zet)    | 有序集合，由浮点key和字符串值组成  |
+| [list](#list)   | list链式表，每个节点上都一个值   |
+## <a id="string">string</a>
+1. 获取值 `get key`
+2. 设置值 `set key`
+3. 删除值 `del key`
+4. 自增 `incr key`
+5. 按值自增 `incrby key`
 
 ![-w510](/images/16187382102057.jpg)
 
-## hash
+## <a id="hash">hash</a>
 1. 设置值(可同时设置多个，空格分隔)`hset key field1 [field2]`返回入库条数
 2. 获取值`hget key field`，返回值
 3. 获取所有值`hgetall key`，返回所有键值
@@ -45,7 +46,7 @@ redis是基于内存的可持久化的key-value型数据库。
 
 ![-w600](/images/16187431843823.jpg)
 
-## set
+## <a id="set">set</a>
 1. 向集合添加一个（多个成员）`sadd key field1 [field2]`,返回操作条数
 2. 获取集合的成员数 `scard key`
 3. 获取第一个集合独有的元素，只传第一个参数则与库中所有的其他集合比较`sdiff key1 [key2]`
@@ -54,14 +55,14 @@ redis是基于内存的可持久化的key-value型数据库。
 
 ![-w505](/images/16212344696690.jpg)
 
-## zet
+## <a id="zet">zet</a>
 1. 向集合中添加元素 `zadd key index1 value1 [index2 value2]`,返回新增的元素数，不包括被更新的元素
 2. 获取集合中的元素数 `zcard key`
 3. 获取集合中在指定区间中的元素数 `zcount key min max`
 4. 移除集合中的一个或多个元素 `zrem key value1 [value2]`
 ![-w387](/images/16212394834115.jpg)
 
-## list
+## <a id="list">list</a>
 1. 将一个或多个元素插入列表头 `lpush key value1 [value2]`,返回列表长度
 2. 将一个或多个元素插入列表尾 `rpush key value1 [value2]`,返回列表长度
 3. 从头部移除并获取一个元素 `lpop key`，返回元素值，不存在返回null
