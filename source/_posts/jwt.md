@@ -6,7 +6,7 @@ categories: [代码]
 top_img: /img/jwt.jpeg
 cover: /img/jwt.jpeg
 ---
-# 简单了解jwt
+# jwt简单了解
 jwt全称json web token，是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准（(RFC 7519)。特别适用于分布式站点的单点登录（SSO）场景。
 
 ## jwt认证流程
@@ -341,8 +341,10 @@ class AuthController extends Controller
 }
 ``` 
 
-#完事,测试一下
+# 完事,测试一下
+
 给整个postman组添加统一的authorization里的token变量
+
 ![-w571](/images/16220968473522.jpg)
 
 
