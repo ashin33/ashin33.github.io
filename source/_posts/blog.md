@@ -4,6 +4,8 @@ title: 通过hexo+github+trvis-ci搭建个人博客
 date: 2021-03-18 18:09:62
 tags: [2021,代码]
 categories: [代码]
+top_img: /img/hexo-github.jpeg
+cover: /img/hexo-github.jpeg
 ---
 ## github
 ### 1. 在github中新建仓库并命名为  github用户名.github.io的仓库
