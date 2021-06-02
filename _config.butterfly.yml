@@ -9,8 +9,7 @@
 menu:
   首页: / || fas fa-home
   哔哔: /bber/ || fas fa-comment
-  留言板: /message/ || fas fa-clipboard
-  留言: /comments/ || fas fa-clipboard
+  留言板: /comments/ || fas fa-clipboard
   时间轴: /archives/ || fas fa-archive
   类别||fa fa-border-all:
     标签: /tags/ || fas fa-tags
