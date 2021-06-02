@@ -10,6 +10,7 @@ menu:
   首页: / || fas fa-home
   哔哔: /bber/ || fas fa-comment
   留言板: /message/ || fas fa-clipboard
+  留言: /comments/ || fas fa-clipboard
   时间轴: /archives/ || fas fa-archive
   类别||fa fa-border-all:
     标签: /tags/ || fas fa-tags
@@ -966,3 +967,21 @@ CDN:
   prismjs_autoloader: https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
+
+#留言板
+# envelope_comment
+# see https://akilar.top/posts/58900a8/
+envelope_comment:
+  enable: true #开关
+  cover: /img/namikaze_minato_6.png #信笺封面图
+  message: #信笺内容，支持多行
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 直接说,白拘着
+  bottom: 平平无奇的码农小王 偶竭诚为您服务！ #信笺结束语，只能单行
+  height: #调整信笺划出高度，默认1050px
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
