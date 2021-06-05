@@ -1,7 +1,7 @@
 ---
 title: redis整理（一）
 date: 2021-04-16 15:58:42
-tags: [2021,代码,redis]
+tags: [2021,redis]
 categories: [代码]
 top_img: /img/redis.jpeg
 cover: /img/redis.jpeg

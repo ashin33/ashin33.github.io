@@ -1,7 +1,7 @@
 ---
 title: 使用pdf.js展示pdf及展示电子签章
 date: 2021-04-01 19:16:11
-tags: [2021,代码]
+tags: [2021,pdf.js]
 categories: [代码]
 top_img: /img/pdf.png
 cover: /img/pdf.png

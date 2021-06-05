@@ -2,7 +2,7 @@
 layout: _posts
 title: 通过hexo+github+trvis-ci搭建个人博客
 date: 2021-03-18 18:09:62
-tags: [2021,代码]
+tags: [2021,hexo]
 categories: [代码]
 top_img: /img/hexo-github.jpg
 cover: /img/hexo-github.jpg

@@ -1,7 +1,7 @@
 ---
 title: 使用jwt在laravel中实现api的登录授权
 date: 2021-05-26 10:55:50
-tags: [2021,代码,api,jwt]
+tags: [2021,代码,laravel,jwt]
 categories: [代码]
 top_img: /img/jwt.jpeg
 cover: /img/jwt.jpeg
