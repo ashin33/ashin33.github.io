@@ -6,6 +6,10 @@ categories: [代码]
 top_img: /img/jwt.jpeg
 cover: /img/jwt.jpeg
 ---
+>emmmmm,发现一个问题,如果jwt过期时间设为2小时,则为绝对意义上的2小时,而不是用户无操作之后的2小时,所以会有用户操作中突然失效的情况,所以要用 `JWTAuth::parseToken()->refresh()` 刷新下token,返回给前端;
+>我这个项目不需要过期,所以直接选择了[设置无过期时间](#设置无过期时间)
+
+
 # jwt简单了解
 jwt全称json web token，是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准（(RFC 7519)。特别适用于分布式站点的单点登录（SSO）场景。
 
@@ -214,8 +218,8 @@ class ApiAuth extends BaseMiddleware//继承jwt的BaseMiddleware,以使用他的
             /**
              * 检测用户的登录状态
              * 如果校验失败则抛出TokenInvalidException异常
-             * 如果过期则抛出TokenBlacklistedException异常
-             * 如果过期后刷新token后又过期了,则后面无法再刷新token,抛出TokenExpiredException异常
+             * 如果过期后刷新了新的token,传了旧token则抛出TokenBlacklistedException异常
+             * 如果过期了,则抛出TokenExpiredException异常
              */
             if ($this->auth->parseToken()->authenticate()) {
                 //todo 身份验证通过,具体实现其他业务逻辑
@@ -339,6 +343,25 @@ class AuthController extends Controller
         return [];
     }
 }
+``` 
+
+### <a id="设置无过期时间">设置无过期时间</a>
+
+编辑 项目根目录/config/jwt.php
+```php
+...
+
+//设置为null,或者设置env变量
+'ttl' => env('JWT_TTL', null),
+...
+    'required_claims' => [
+        'iss',
+        'iat',
+        //'exp',//注释掉exp,否则token生成是会将过期时间一起加进去,但是null过期时候会使token生成失败
+        'nbf',
+        'sub',
+        'jti',
+    ],
 ``` 
 
 # 完事,测试一下
