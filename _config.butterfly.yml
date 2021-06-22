@@ -873,7 +873,7 @@ inject:
      - '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
      - <script src="/js/alon.js"></script>
-     - <div class="aplayer no-destroy" data-id="7483403746" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+     - <div class="aplayer no-destroy" data-id="8042424601" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
 
 
 # CDN
