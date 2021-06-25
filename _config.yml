@@ -105,5 +105,4 @@ deploy:
   type: git
   repo:
     github: https://github.com/ashin33/ashin33.github.io.git
-    coding: git@e.coding.net:ashin33/ashin33.coding.me/ashin33.coding.me.git
   branch: hexo

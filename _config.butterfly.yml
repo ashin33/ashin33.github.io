@@ -812,7 +812,7 @@ artitalk:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+     - /bber/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)

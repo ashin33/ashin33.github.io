@@ -38,9 +38,9 @@ after_script:
   - git add .
   - git commit -m "Travis ci push"
   - git push --force --quiet "https://${travis_ci}@${gh_repo}" master:master
-  - git push --force --quiet "https://${co_token}@${co_repo}" master:master
+
 env:
   global:
     - gh_repo: github.com/ashin33/ashin33.github.io.git
-    - co_repo: git@e.coding.net:ashin33/ashin33.coding.me/ashin33.coding.me.git
+
 # End: Build LifeCycle
