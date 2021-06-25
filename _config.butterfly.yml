@@ -873,6 +873,7 @@ inject:
      - '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
      - <script src="/js/alon.js"></script>
+     - <script src="/js/cursor.js"></script>
      - <script src="https://myhkw.cn/api/player/162434514377" id="myhk" key="162434514377"></script>
 
 

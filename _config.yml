@@ -104,5 +104,6 @@ theme: butterfly
 deploy:
   type: git
   repo:
-    github: https://github.com/ashin33/ashin33.github.io.git
-  branch: hexo
+#    github: https://github.com/ashin33/ashin33.github.io.git
+    coding: https://e.coding.net/ashin33/ashin33.coding.me/ashin33.github.io.git
+  branch: master
