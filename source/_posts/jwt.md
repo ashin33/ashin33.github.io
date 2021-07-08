@@ -6,8 +6,8 @@ categories: [代码]
 top_img: /img/jwt.jpeg
 cover: /img/jwt.jpeg
 ---
->emmmmm,发现一个问题,如果jwt过期时间设为2小时,则为绝对意义上的2小时,而不是用户无操作之后的2小时,所以会有用户操作中突然失效的情况,所以要用 `JWTAuth::parseToken()->refresh()` 刷新下token,返回给前端;
->我这个项目不需要过期,所以直接选择了[设置无过期时间](#设置无过期时间)
+>emmmmm,发现一个问题;如果jwt过期时间设为2小时,则为绝对意义上的2小时,而不是用户无操作之后的2小时,这是为了保证token的安全,防止token被窃取后,一直使用,永远不过期。所以要用 `JWTAuth::parseToken()->refresh()` 刷新token,返回给前端;
+>当然也可以[设置无过期时间](#设置无过期时间)
 
 
 # jwt简单了解
